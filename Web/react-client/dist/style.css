@@ -9,7 +9,7 @@ position: absolute;
 }
 
 .regist {
-  z-index: 2;
+  z-index: 1;
   position: relative;
 
   /* margin-top: 25%; */
@@ -17,7 +17,7 @@ position: absolute;
 
 }
 .likes {
-  z-index: 2;
+  z-index: 1;
   position: relative;
   top: 330px;
   /* margin-top: 2%; */
@@ -26,15 +26,122 @@ position: absolute;
 }
 
 .main-form{
-  z-index: 2;
+  z-index: 1;
   position: relative;
   top: 200px;
   /* margin-top: 5%; */
   text-align: center;
 }
 
-#googleButton{z-index: 2;
+#googleButton{z-index: 1;
 position: relative;
 top:280px;
 /* margin-top: 5%; */
 text-align: center;}
+
+.welcome{z-index: 1;
+position: relative;
+top:280px;
+color: white;
+/* margin-top: 5%; */
+text-align: center;}
+
+.tutorial{
+  text-align: center;
+  z-index: 5;
+  position: relative;
+}
+
+.game_back{background-color: #ecf0f1;width:100%;
+height:1080px;}
+.game{
+  text-align: center;
+  z-index: 5;
+
+  width: 1200px;
+  height:600px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.tutorial_content{
+  text-align: center;
+  z-index: 5;
+}
+
+.ReactModal__Overlay {
+    z-index: 1000;
+}
+#modalButton{
+  z-index: 0;
+margin-left:70%;
+margin-top: 5px;
+
+
+}
+.hello-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.hello-enter.hello-enter-active {
+  opacity: 1;
+}
+
+.hello-leave {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.hello-leave.hello-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.hello-appear {
+  opacity: 0.01;
+  transition: opacity 3s ease-in;
+}
+
+.hello-appear.hello-appear-active {
+  opacity: 1;
+}
+
+
+.compare-enter {
+  opacity: 0;
+  transition: opacity .1s ease-in;
+}
+
+.compare-enter.compare-enter-active {
+  opacity: 1;
+}
+
+.compare-leave {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.compare-leave.compare-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.compare-appear {
+  opacity: 0;
+  transition: opacity 6s ease-in;
+}
+
+.compare-appear.compare-appear-active {
+  opacity: 1;
+}
+
+#send{
+  text-align: center;
+   width: 80%;
+}
+
+#remind{color:#34495e;}
